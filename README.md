@@ -9,7 +9,7 @@ This library is forked from LED-Matrix-Display-Driver-Library STM32. The source 
 
 - Display size: 64x32
 - Color: RGB332
-- Hue: 4 per color
+- Hue: 4 each for R,G,B
     - If you want to change it to different RGB format or display size. You need to recalculate for buffer size and modify display fuctions.
 
 - If you want SD Card support, you can look at [ChaN's FatFS](http://elm-chan.org/fsw/ff/00index_e.html). 
