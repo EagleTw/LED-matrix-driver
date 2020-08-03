@@ -6,25 +6,30 @@ void setup() {
   displayInit();
   displaySetBrightness(40);
 
-  displayGoTo(0+3, 1);
+  displayGoTo(0+2, 1);
   displaySetFont(ARIAL_16X19);
   displayPrint("L", COLOR(RED));
 
-  displayGoTo(10+3, 1);
+  displayGoTo(9+2, 1);
   displaySetFont(ARIAL_16X19);
-  displayPrint("U", COLOR(ORANGE));
+  displayPrint("E", COLOR(ORANGE));
 
-  displayGoTo(22+3, 1);
+  displayGoTo(19+2, 1);
   displaySetFont(ARIAL_16X19);
-  displayPrint("M", COLOR(YELLOW));
+  displayPrint("X", COLOR(YELLOW));
 
-  displayGoTo(36+3, 1);
+  displayGoTo(31+2, 1);
   displaySetFont(ARIAL_16X19);
-  displayPrint("E", COLOR(GREEN));
+  displayPrint("T", COLOR(GREEN));
 
-  displayGoTo(47+3, 1);
+  displayGoTo(38+2, 1);
   displaySetFont(ARIAL_16X19);
-  displayPrint("X", COLOR(BLUE));
+  displayPrint("A", COLOR(BLUE));
+
+  displayGoTo(50+2, 1);
+  displaySetFont(ARIAL_16X19);
+  displayPrint("R", COLOR(PURPLE));
+
 
   displayGoTo(3, 18);
   displaySetFont(DEFAULT_BIG);
@@ -32,12 +37,8 @@ void setup() {
 
   displayGoTo(30, 23);
   displaySetFont(DEFAULT_SMALL);
-  displayPrint("64x32", COLOR(MAGENTA));
+  displayPrint("64x32", COLOR(0xFA8072));
 
-
-  //  displayGoTo(38, 19);
-  //  displaySetFont(TERMINAL_6X8);
-  //  displayPrint("TEST", COLOR(GREEN));
 }
 void loop() {
   refreshDisplay();
