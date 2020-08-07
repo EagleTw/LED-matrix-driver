@@ -1,4 +1,4 @@
-# LDM6432P5-LED-Control-Driver
+# LED-Array-Display-Driver
 
 Demo Video: [[Link]](https://www.youtube.com/watch?v=Rvaf9_4eRo0)
 
