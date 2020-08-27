@@ -61,3 +61,7 @@ In NuMaker 131 Uno, Install "NuMaker UNO"
 
 ## Adding New Font Style
 same as logic displaying image
+
+
+// Global variables
+// Copyright (c) 2020 YPPAN, LEXTAR
