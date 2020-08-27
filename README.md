@@ -18,16 +18,18 @@ This library is forked from LED-Matrix-Display-Driver-Library STM32. The source 
 
 ## Pin Configuration 
 
-If you are using NuMaker 131 Uno, you can directly use this pin config.
+If you are using NuMaker 131 Uno board, you can directly use this pin config.
 
 | Line | GPIO Pin |
 | ---- | -------- |
 | R0   | PF4      |
 | G0   | PF5      |
 | B0   | PA10     |
+| GND  | GND PIN  |
 | R1   | PA11     |
 | G1   | PA15     |
 | B1   | PE5      |
+| GND  | GND PIN  |
 | A    | PA0      |
 | B    | PA1      |
 | C    | PA2      |
@@ -35,13 +37,20 @@ If you are using NuMaker 131 Uno, you can directly use this pin config.
 | CLK  | PB11     |
 | LAT  | PA14     |
 | OE   | PA13     |
-| GNK  | PA12     |
+| GND  | PA12     |
 
+The pin setting funnction in DisplayInit() function is defined by "NUC131Series_BSP_CMSIS_v3.00.004",  which can be found in the NuVoton's website
+
+## Before running the code
+
+You need to install the corresponding board from "tools->boards manager"   
+In NuMaker 131 Uno, Install "NuMaker UNO"
 
 ## How to run example
-1. create a directory with the same name as example
-2. move all documents inside the directory
-3. open .ino and run code
+1. create a directory with the same name as example/_____.ino
+2. copy ____.ino in to the directory you just created
+3. copy all documents in "src" inside the directory
+4. open .ino and run code
 
 ## How to display image?
 
