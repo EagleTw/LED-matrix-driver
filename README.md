@@ -1,4 +1,4 @@
-# LED-Matrix-Display-Driver-Library NuMaker Uno 131
+# LED-matrix-driver on NuMaker Uno 131
  
 Demo Video: [[Link]](https://www.youtube.com/watch?v=Rvaf9_4eRo0)
 
