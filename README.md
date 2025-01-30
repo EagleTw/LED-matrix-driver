@@ -1,4 +1,4 @@
-# LED-matrix-driver on NuMaker Uno 131
+# RGB-Matrix-Driver-NuMaker
 
 Demo Video: [[Link]](https://www.youtube.com/watch?v=Rvaf9_4eRo0)
 
@@ -44,27 +44,38 @@ For users employing the NuMaker 131 Uno board, the following GPIO pin configurat
 
 The pin setting funnction in DisplayInit() function is defined by "NUC131Series_BSP_CMSIS_v3.00.004",  which can be found in the NuVoton's website
 
-## Before running the code
+## Getting Started
 
-You need to install the corresponding board from "tools->boards manager"
-In NuMaker 131 Uno, Install "NuMaker UNO"
+### Prerequisites
 
-## How to run example
-1. create a directory with the same name as example/_____.ino
-2. copy ____.ino in to the directory you just created
-3. copy all documents in "src" inside the directory
-4. open .ino and run code
+Before running the code, ensure you have installed the required board package:
 
-## How to display image?
+1. Open **Arduino IDE**.
+2. Navigate to **Tools → Board Manager**.
+3. Search for **NuMaker UNO** and install it.
 
-1. Convert your image file to .bmp
-2. Use bmp2h.py to convert to byte array(.h) file
-3. Inclue .h file to .iso
-4. use displayLoadImage() function
+### Running an Example
 
-## Adding New Font Style
-same as logic displaying image
+Follow these steps to run an example sketch:
 
+1. Create a new directory with the **same name** as the example file (`example/_____.ino`).
+2. Copy the `_____.ino` file into the newly created directory.
+3. Copy all files from the `src/` directory into the same directory.
+4. Open the `.ino` file in the **Arduino IDE** and upload the code to the board.
 
-// Global variables
-// Copyright (c) 2020 YPPAN, LEXTAR
+### Displaying an Image
+
+To display an image on the LED matrix:
+
+1. Convert your image file to **.bmp** format.
+2. Use `bmp2h.py` to convert the BMP file into a **byte array (.h) file**.
+3. Include the generated `.h` file in your `.ino` sketch.
+4. Call the `displayLoadImage()` function to load and display the image.
+
+### Adding a New Font Style
+
+The process of adding a new font style follows the **same logic** as displaying an image:
+
+1. Convert the font data into a compatible byte array.
+2. Include the generated `.h` file in your project.
+3. Modify the display function to support the new font style.
